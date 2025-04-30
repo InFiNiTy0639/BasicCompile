@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color</title>
+    <style>
+      body,
+      html {
+        height: 70%;
+        margin: 0;
+        background-color: black;
+        color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main {
+        width: 500px;
+        height: 150px;
+        /* border: 1px solid #fff; */
+        text-align: center;
+        background-color: rgb(69, 67, 65);
+        box-shadow: 0 0 5px 3px rgba(0, 256, 187, 0.6);
+        border-radius: 10px;
+      }
+      #start {
+        font-size: 20px;
+        border-radius: 7px;
+        background-color: black;
+        color: whitesmoke;
+        box-shadow: 0 0 10px 5px rgba(199, 199, 218, 0.6);
+      }
+      #stop {
+        font-size: 20px;
+        border-radius: 7px;
+        background-color: black;
+        color: whitesmoke;
+        box-shadow: 0 0 10px 5px rgba(199, 199, 218, 0.6);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Click to change Background color</h1>
+      <button id="start">start</button>
+      <button id="stop">stop</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

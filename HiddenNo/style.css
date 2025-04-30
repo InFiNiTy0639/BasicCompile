@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  background-color: #0e0e0e;
+}
+
+.numbers {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.numbers span {
+  position: relative;
+  font-size: 3em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.05);
+  line-height: 0.9em;
+  transition: color 1s, text-shadow 1s;
+  user-select: none;
+}
+
+.numbers span:hover {
+  transition: none;
+  color: #fff;
+  text-shadow: 0 0 10px rgb(37, 178, 220), 0 0 20px rgb(27, 167, 227), 0 0 40px rgb(38, 188, 211), 0 0 80px rgb(12, 192, 228),
+    0 0 160px rgb(28, 198, 184);
+  z-index: 1;
+}
